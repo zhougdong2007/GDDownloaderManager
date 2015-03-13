@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7519.1" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="VVd-7O-GqM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7513.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="KAF-vi-JUi">
+            <objects>
+                <viewController id="VVd-7O-GqM" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0KB-uM-NLw"/>
+                        <viewControllerLayoutGuide type="bottom" id="Udh-pS-bLJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Umb-5k-Zt1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Nf-ar-wMd">
+                                <rect key="frame" x="47" y="131" width="100" height="30"/>
+                                <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="HQE-rR-bqr"/>
+                                    <constraint firstAttribute="width" constant="100" id="Zbf-5D-kWP"/>
+                                </constraints>
+                                <state key="normal" title="下载">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="download:" destination="VVd-7O-GqM" eventType="touchUpInside" id="hIf-Rj-f4D"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z0l-Yr-O6P">
+                                <rect key="frame" x="47" y="191" width="100" height="30"/>
+                                <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <state key="normal" title="暂停">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="stop:" destination="VVd-7O-GqM" eventType="touchUpInside" id="etg-8l-wnw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBm-TO-NKL" customClass="GDProgressButton">
+                                <rect key="frame" x="47" y="250" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="d6J-lc-AfH"/>
+                                    <constraint firstAttribute="height" constant="100" id="pQz-MS-IER"/>
+                                </constraints>
+                                <state key="normal" title="进度">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eBm-TO-NKL" firstAttribute="leading" secondItem="z0l-Yr-O6P" secondAttribute="leading" id="0fy-z1-9vP"/>
+                            <constraint firstItem="z0l-Yr-O6P" firstAttribute="top" secondItem="1Nf-ar-wMd" secondAttribute="bottom" constant="30" id="7kw-FY-m0C"/>
+                            <constraint firstItem="1Nf-ar-wMd" firstAttribute="leading" secondItem="z0l-Yr-O6P" secondAttribute="leading" id="VwH-AH-HDN"/>
+                            <constraint firstItem="1Nf-ar-wMd" firstAttribute="width" secondItem="z0l-Yr-O6P" secondAttribute="width" id="e9S-mQ-VJg"/>
+                            <constraint firstItem="1Nf-ar-wMd" firstAttribute="leading" secondItem="Umb-5k-Zt1" secondAttribute="leadingMargin" constant="31" id="fLM-9H-GLt"/>
+                            <constraint firstItem="1Nf-ar-wMd" firstAttribute="height" secondItem="z0l-Yr-O6P" secondAttribute="height" id="htG-U9-bFD"/>
+                            <constraint firstItem="1Nf-ar-wMd" firstAttribute="top" secondItem="0KB-uM-NLw" secondAttribute="bottom" constant="111" id="pOw-9f-qWK"/>
+                            <constraint firstItem="1Nf-ar-wMd" firstAttribute="leading" secondItem="Umb-5k-Zt1" secondAttribute="leadingMargin" constant="31" id="pan-dq-36Z"/>
+                            <constraint firstItem="eBm-TO-NKL" firstAttribute="top" secondItem="z0l-Yr-O6P" secondAttribute="bottom" constant="29" id="qDz-s3-lUj"/>
+                            <constraint firstItem="1Nf-ar-wMd" firstAttribute="top" secondItem="0KB-uM-NLw" secondAttribute="bottom" constant="111" id="xib-hM-4ZS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="progressBtn" destination="eBm-TO-NKL" id="6mG-oI-ch8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nGQ-af-7aI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

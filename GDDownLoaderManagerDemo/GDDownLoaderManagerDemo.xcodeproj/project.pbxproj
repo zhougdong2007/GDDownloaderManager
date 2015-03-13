@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF1882571AB31D250093020B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1882561AB31D250093020B /* main.m */; };
+		AF18825A1AB31D250093020B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1882591AB31D250093020B /* AppDelegate.m */; };
+		AF18825D1AB31D250093020B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF18825C1AB31D250093020B /* ViewController.m */; };
+		AF1882601AB31D250093020B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF18825E1AB31D250093020B /* Main.storyboard */; };
+		AF1882621AB31D250093020B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF1882611AB31D250093020B /* Images.xcassets */; };
+		AF1882651AB31D250093020B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF1882631AB31D250093020B /* LaunchScreen.xib */; };
+		AF1882711AB31D250093020B /* GDDownLoaderManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1882701AB31D250093020B /* GDDownLoaderManagerDemoTests.m */; };
+		AF1882811AB31D730093020B /* GDDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = AF18827C1AB31D730093020B /* GDDownloader.m */; };
+		AF1882821AB31D730093020B /* GDDownloaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AF18827E1AB31D730093020B /* GDDownloaderManager.m */; };
+		AF1882831AB31D730093020B /* GDProgressButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1882801AB31D730093020B /* GDProgressButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF18826B1AB31D250093020B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF1882491AB31D250093020B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF1882501AB31D250093020B;
+			remoteInfo = GDDownLoaderManagerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF1882511AB31D250093020B /* GDDownLoaderManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDDownLoaderManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1882551AB31D250093020B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF1882561AB31D250093020B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF1882581AB31D250093020B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF1882591AB31D250093020B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF18825B1AB31D250093020B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AF18825C1AB31D250093020B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AF18825F1AB31D250093020B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF1882611AB31D250093020B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AF1882641AB31D250093020B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AF18826A1AB31D250093020B /* GDDownLoaderManagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDDownLoaderManagerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF18826F1AB31D250093020B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF1882701AB31D250093020B /* GDDownLoaderManagerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDDownLoaderManagerDemoTests.m; sourceTree = "<group>"; };
+		AF18827B1AB31D730093020B /* GDDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDDownloader.h; sourceTree = "<group>"; };
+		AF18827C1AB31D730093020B /* GDDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDDownloader.m; sourceTree = "<group>"; };
+		AF18827D1AB31D730093020B /* GDDownloaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDDownloaderManager.h; sourceTree = "<group>"; };
+		AF18827E1AB31D730093020B /* GDDownloaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDDownloaderManager.m; sourceTree = "<group>"; };
+		AF18827F1AB31D730093020B /* GDProgressButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDProgressButton.h; sourceTree = "<group>"; };
+		AF1882801AB31D730093020B /* GDProgressButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDProgressButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF18824E1AB31D250093020B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1882671AB31D250093020B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF1882481AB31D250093020B = {
+			isa = PBXGroup;
+			children = (
+				AF1882531AB31D250093020B /* GDDownLoaderManagerDemo */,
+				AF18826D1AB31D250093020B /* GDDownLoaderManagerDemoTests */,
+				AF1882521AB31D250093020B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF1882521AB31D250093020B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF1882511AB31D250093020B /* GDDownLoaderManagerDemo.app */,
+				AF18826A1AB31D250093020B /* GDDownLoaderManagerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF1882531AB31D250093020B /* GDDownLoaderManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AF1882581AB31D250093020B /* AppDelegate.h */,
+				AF1882591AB31D250093020B /* AppDelegate.m */,
+				AF18825B1AB31D250093020B /* ViewController.h */,
+				AF18825C1AB31D250093020B /* ViewController.m */,
+				AF18825E1AB31D250093020B /* Main.storyboard */,
+				AF1882611AB31D250093020B /* Images.xcassets */,
+				AF1882631AB31D250093020B /* LaunchScreen.xib */,
+				AF1882541AB31D250093020B /* Supporting Files */,
+			);
+			path = GDDownLoaderManagerDemo;
+			sourceTree = "<group>";
+		};
+		AF1882541AB31D250093020B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF18827A1AB31D730093020B /* Downloader */,
+				AF1882551AB31D250093020B /* Info.plist */,
+				AF1882561AB31D250093020B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF18826D1AB31D250093020B /* GDDownLoaderManagerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF1882701AB31D250093020B /* GDDownLoaderManagerDemoTests.m */,
+				AF18826E1AB31D250093020B /* Supporting Files */,
+			);
+			path = GDDownLoaderManagerDemoTests;
+			sourceTree = "<group>";
+		};
+		AF18826E1AB31D250093020B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF18826F1AB31D250093020B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF18827A1AB31D730093020B /* Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				AF18827B1AB31D730093020B /* GDDownloader.h */,
+				AF18827C1AB31D730093020B /* GDDownloader.m */,
+				AF18827D1AB31D730093020B /* GDDownloaderManager.h */,
+				AF18827E1AB31D730093020B /* GDDownloaderManager.m */,
+				AF18827F1AB31D730093020B /* GDProgressButton.h */,
+				AF1882801AB31D730093020B /* GDProgressButton.m */,
+			);
+			path = Downloader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF1882501AB31D250093020B /* GDDownLoaderManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1882741AB31D250093020B /* Build configuration list for PBXNativeTarget "GDDownLoaderManagerDemo" */;
+			buildPhases = (
+				AF18824D1AB31D250093020B /* Sources */,
+				AF18824E1AB31D250093020B /* Frameworks */,
+				AF18824F1AB31D250093020B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GDDownLoaderManagerDemo;
+			productName = GDDownLoaderManagerDemo;
+			productReference = AF1882511AB31D250093020B /* GDDownLoaderManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF1882691AB31D250093020B /* GDDownLoaderManagerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1882771AB31D250093020B /* Build configuration list for PBXNativeTarget "GDDownLoaderManagerDemoTests" */;
+			buildPhases = (
+				AF1882661AB31D250093020B /* Sources */,
+				AF1882671AB31D250093020B /* Frameworks */,
+				AF1882681AB31D250093020B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF18826C1AB31D250093020B /* PBXTargetDependency */,
+			);
+			name = GDDownLoaderManagerDemoTests;
+			productName = GDDownLoaderManagerDemoTests;
+			productReference = AF18826A1AB31D250093020B /* GDDownLoaderManagerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF1882491AB31D250093020B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = zhouguodong;
+				TargetAttributes = {
+					AF1882501AB31D250093020B = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					AF1882691AB31D250093020B = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = AF1882501AB31D250093020B;
+					};
+				};
+			};
+			buildConfigurationList = AF18824C1AB31D250093020B /* Build configuration list for PBXProject "GDDownLoaderManagerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF1882481AB31D250093020B;
+			productRefGroup = AF1882521AB31D250093020B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF1882501AB31D250093020B /* GDDownLoaderManagerDemo */,
+				AF1882691AB31D250093020B /* GDDownLoaderManagerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF18824F1AB31D250093020B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1882601AB31D250093020B /* Main.storyboard in Resources */,
+				AF1882651AB31D250093020B /* LaunchScreen.xib in Resources */,
+				AF1882621AB31D250093020B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1882681AB31D250093020B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF18824D1AB31D250093020B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF18825D1AB31D250093020B /* ViewController.m in Sources */,
+				AF1882821AB31D730093020B /* GDDownloaderManager.m in Sources */,
+				AF18825A1AB31D250093020B /* AppDelegate.m in Sources */,
+				AF1882571AB31D250093020B /* main.m in Sources */,
+				AF1882811AB31D730093020B /* GDDownloader.m in Sources */,
+				AF1882831AB31D730093020B /* GDProgressButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1882661AB31D250093020B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1882711AB31D250093020B /* GDDownLoaderManagerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF18826C1AB31D250093020B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF1882501AB31D250093020B /* GDDownLoaderManagerDemo */;
+			targetProxy = AF18826B1AB31D250093020B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF18825E1AB31D250093020B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF18825F1AB31D250093020B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF1882631AB31D250093020B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF1882641AB31D250093020B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF1882721AB31D250093020B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF1882731AB31D250093020B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF1882751AB31D250093020B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GDDownLoaderManagerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF1882761AB31D250093020B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GDDownLoaderManagerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AF1882781AB31D250093020B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GDDownLoaderManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDDownLoaderManagerDemo.app/GDDownLoaderManagerDemo";
+			};
+			name = Debug;
+		};
+		AF1882791AB31D250093020B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GDDownLoaderManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDDownLoaderManagerDemo.app/GDDownLoaderManagerDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF18824C1AB31D250093020B /* Build configuration list for PBXProject "GDDownLoaderManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1882721AB31D250093020B /* Debug */,
+				AF1882731AB31D250093020B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF1882741AB31D250093020B /* Build configuration list for PBXNativeTarget "GDDownLoaderManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1882751AB31D250093020B /* Debug */,
+				AF1882761AB31D250093020B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF1882771AB31D250093020B /* Build configuration list for PBXNativeTarget "GDDownLoaderManagerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1882781AB31D250093020B /* Debug */,
+				AF1882791AB31D250093020B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF1882491AB31D250093020B /* Project object */;
+}
